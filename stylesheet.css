@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+#head_1 {
+    text-align: center;
+    color: red;
+  }
+
+  #div_linkek {
+    background-color: rgb(29, 29, 29);
+    width: 300px;
+    border: 15px solid rgb(255, 255, 255);
+    padding-left: 50px;
+    margin-left: 20px;
+  }
