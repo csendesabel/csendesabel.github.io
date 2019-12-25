@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 7725.2 500" style="enable-background:new 0 0 7725.2 500;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#1D1D1B;}
 </style>
-<path class="st0" d="M1620.9,0c-276.1,0-500,223.9-500,500h1000C2120.9,223.9,1897,0,1620.9,0z"/>
-<path class="st0" d="M2741.7,0c-276.1,0-500,223.9-500,500h1000C3241.7,223.9,3017.9,0,2741.7,0z"/>
-<path class="st0" d="M3862.6,0c-276.1,0-500,223.9-500,500h1000C4362.6,223.9,4138.8,0,3862.6,0z"/>
-<path class="st0" d="M6104.4,0c-276.1,0-500,223.9-500,500h1000C6604.4,223.9,6380.5,0,6104.4,0z"/>
-<path class="st0" d="M7225.2,0c-276.1,0-500,223.9-500,500h1000C7725.2,223.9,7501.4,0,7225.2,0z"/>
-<path class="st0" d="M1000,0H500C223.9,0,0,223.9,0,500h1000V0z"/>
-<path class="st0" d="M4483.5,0l500,0c276.1,0,500,223.9,500,500h-1000V0z"/>
+<g id="Layer_1">
+</g>
+<g id="Layer_2">
+	<g>
+		<path class="st0" d="M477.5,0.5C211.8,12.3,0,231.4,0,500h477.5V0.5z"/>
+		<rect x="522.5" y="0" class="st0" width="477.5" height="500"/>
+	</g>
+	<g>
+		<path class="st0" d="M1643.4,500h477.5c0-268.6-211.8-487.7-477.5-499.5V500z"/>
+		<path class="st0" d="M1598.4,0.5c-265.7,11.8-477.5,230.9-477.5,499.5h477.5V0.5z"/>
+	</g>
+	<g>
+		<path class="st0" d="M2764.2,500h477.5c0-268.6-211.8-487.7-477.5-499.5V500z"/>
+		<path class="st0" d="M2719.2,0.5c-265.7,11.8-477.5,230.9-477.5,499.5h477.5V0.5z"/>
+	</g>
+	<g>
+		<path class="st0" d="M3885.1,500h477.5c0-268.6-211.8-487.7-477.5-499.5V500z"/>
+		<path class="st0" d="M3840.1,0.5c-265.7,11.8-477.5,230.9-477.5,499.5h477.5V0.5z"/>
+	</g>
+	<g>
+		<path class="st0" d="M5006,500h477.5c0-268.6-211.8-487.7-477.5-499.5V500z"/>
+		<rect x="4483.5" y="0" class="st0" width="477.5" height="500"/>
+	</g>
+	<g>
+		<path class="st0" d="M6126.9,500h477.5c0-268.6-211.8-487.7-477.5-499.5V500z"/>
+		<path class="st0" d="M6081.9,0.5c-265.7,11.8-477.5,230.9-477.5,499.5h477.5V0.5z"/>
+	</g>
+	<g>
+		<path class="st0" d="M7202.7,0.5C6937,12.3,6725.2,231.4,6725.2,500h477.5V0.5z"/>
+		<path class="st0" d="M7247.7,500h477.5c0-268.6-211.8-487.7-477.5-499.5V500z"/>
+	</g>
+</g>
 </svg>
