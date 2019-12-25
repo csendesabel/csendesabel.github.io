@@ -54,7 +54,7 @@ p {
   }
 
   #div_linkek {
-    background-color: rgb(221, 221, 221);
+    /*background-color: rgb(221, 221, 221);*/
     /*border: 1px solid rgb(255, 255, 255);*/
     padding: 40px;
     text-align: center;
@@ -107,7 +107,7 @@ p {
   nav {
     float: left;
     width: 30%;
-    background: #ccc;
+    /*background: #ccc;*/
     padding: 20px;
     display: table-cell;
     vertical-align: middle;
@@ -119,7 +119,7 @@ p {
     width: 50%;
     display: table-cell;
     vertical-align: middle;
-    background-color: #f1f1f1;
+    /*background-color: #f1f1f1;*/
   }
   
   .hatterminta_oda {
@@ -135,14 +135,14 @@ p {
   }
 
   @-webkit-keyframes oda {
-    0%   {background-color:red; left:-50%;}
-    100% {background-color:red; left:150%;}
+    0%   {/*background-color:red;*/ left:-50%; top:0%;}
+    100% {/*background-color:red;*/ left:150%; top:0%;}
   }
   
   /* Standard syntax */
   @keyframes oda {
-    0%   {background-color:red; left:-50%;}
-    100% {background-color:red; left:150%;}
+    0%   {/*background-color:red;*/ left:-50%; top:0%;}
+    100% {/*background-color:red;*/ left:150%; top:0%;}
   }
 
   .hatterminta_vissza {
@@ -158,18 +158,18 @@ p {
   }
 
   @-webkit-keyframes vissza {
-    0%   {background-color:red; left:100%;}
-    100% {background-color:red; left:-100%;}
+    0%   {/*background-color:red;*/ left:100%; top:0%;}
+    100% {/*background-color:red;*/ left:-100%; top:0%;}
   }
   
   /* Standard syntax */
   @keyframes vissza {
-    0%   {background-color:red; left:100%;}
-    100% {background-color:red; left:-100%;}
+    0%   {/*background-color:red;*/ left:100%; top:0%;}
+    100% {/*background-color:red;*/ left:-100%; top:0%;}
   }
 
   .hatterminta_oda_kes {
-    position: relative;
+    position: absolute;
     -webkit-animation-name: oda_kes; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
@@ -183,18 +183,18 @@ p {
   }
 
   @-webkit-keyframes oda_kes {
-    0%   {background-color:red; left:-50%;}
-    100% {background-color:red; left:150%;}
+    0%   {/*background-color:red;*/ left:-50%; top:0%;}
+    100% {/*background-color:red;*/ left:150%; top:0%;}
   }
   
   /* Standard syntax */
   @keyframes oda_kes {
-    0%   {background-color:red; left:-50%;}
-    100% {background-color:red; left:150%;}
+    0%   {/*background-color:red;*/ left:-50%; top:0%;}
+    100% {/*background-color:red;*/ left:150%; top:0%;}
   }
 
   .hatterminta_vissza_kes {
-    position: relative;
+    position: absolute;
     -webkit-animation-name: vissza_kes; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
@@ -208,12 +208,12 @@ p {
   }
 
   @-webkit-keyframes vissza_kes {
-    0%   {background-color:red; left:100%;}
-    100% {background-color:red; left:-100%;}
+    0%   {/*background-color:red;*/ left:100%; top:0%;}
+    100% {/*background-color:red;*/ left:-100%; top:0%;}
   }
   
   /* Standard syntax */
   @keyframes vissza_kes {
-    0%   {background-color:red; left:100%;}
-    100% {background-color:red; left:-100%;}
+    0%   {/*background-color:red;*/ left:100%; top:0%;}
+    100% {/*background-color:red;*/ left:-100%; top:0%;}
   }
