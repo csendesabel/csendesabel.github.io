@@ -2,7 +2,8 @@ body {
   background-color: rgb(255, 215, 6);
   border: 10px solid rgb(221, 186, 0);
   margin: 20px;
-  padding: 50px;
+  padding: 0px;
+  
 }
 
 h1 {
@@ -26,6 +27,17 @@ h2 {
   margin-top: 0px;
 }
 
+.alairas {
+  color: rgb(18, 15, 0);;
+  font-family: Walkway Expand Black, Arial, Helvetica, sans-serif;
+  font-style: lighter;
+  font-weight: 300;
+  font-size: 10px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  align-self: center;
+}
+
 p {
   color: rgb(18, 15, 0);
   font-family: Helvetica, Arial, sans-serif;
@@ -35,10 +47,16 @@ p {
   margin-left: 50px;
 }
 
-#div_linkek {
-    /* background-color: rgb(29, 29, 29); */
+  #div_alairas {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  #div_linkek {
+    background-color: rgb(221, 221, 221);
     /*border: 1px solid rgb(255, 255, 255);*/
-    padding: 50px;
+    padding: 40px;
     text-align: center;
   }
 
@@ -55,15 +73,29 @@ p {
     filter: drop-shadow(1px 1px 2px #222);
   }
 
+  .linkicon {
+    width: 70px;
+    height: 70px;
+    transform: rotateY(0deg);
+    transition: transform 0.2s ease-in-out, color 0.2s linear;
+  }
+    .linkicon:hover {
+      transform: rotateY(360deg);
+      transition: transform 0.6s ease-in-out, color 0.4s linear;
+    }
+  
+
   .kep {  
     /*width: 500px;
     height: 500px;*/
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
     overflow: hidden;
     -webkit-filter: drop-shadow(10px 10px 20px #222);
     filter: drop-shadow(10px 10px 20px #222);
+    vertical-align: middle;
+    margin-top: 100px;
   }
 
   section:after {
@@ -74,9 +106,11 @@ p {
 
   nav {
     float: left;
-    width: 40%;
-    /*background: #ccc;*/
+    width: 30%;
+    background: #ccc;
     padding: 20px;
+    display: table-cell;
+    vertical-align: middle;
   }
 
   article {
@@ -85,6 +119,101 @@ p {
     width: 50%;
     display: table-cell;
     vertical-align: middle;
-    /*background-color: #f1f1f1;*/
+    background-color: #f1f1f1;
   }
   
+  .hatterminta_oda {
+    position: relative;
+    -webkit-animation-name: oda; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: linear; /* Safari 4.0 - 8.0 */
+    animation-name: oda;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes oda {
+    0%   {background-color:red; left:-50%;}
+    100% {background-color:red; left:150%;}
+  }
+  
+  /* Standard syntax */
+  @keyframes oda {
+    0%   {background-color:red; left:-50%;}
+    100% {background-color:red; left:150%;}
+  }
+
+  .hatterminta_vissza {
+    position: relative;
+    -webkit-animation-name: vissza; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: linear; /* Safari 4.0 - 8.0 */
+    animation-name: vissza;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  @-webkit-keyframes vissza {
+    0%   {background-color:red; left:100%;}
+    100% {background-color:red; left:-100%;}
+  }
+  
+  /* Standard syntax */
+  @keyframes vissza {
+    0%   {background-color:red; left:100%;}
+    100% {background-color:red; left:-100%;}
+  }
+
+  .hatterminta_oda_kes {
+    position: relative;
+    -webkit-animation-name: oda_kes; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: linear; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: oda_kes;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+  }
+
+  @-webkit-keyframes oda_kes {
+    0%   {background-color:red; left:-50%;}
+    100% {background-color:red; left:150%;}
+  }
+  
+  /* Standard syntax */
+  @keyframes oda_kes {
+    0%   {background-color:red; left:-50%;}
+    100% {background-color:red; left:150%;}
+  }
+
+  .hatterminta_vissza_kes {
+    position: relative;
+    -webkit-animation-name: vissza_kes; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-timing-function: linear; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: vissza_kes;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+  }
+
+  @-webkit-keyframes vissza_kes {
+    0%   {background-color:red; left:100%;}
+    100% {background-color:red; left:-100%;}
+  }
+  
+  /* Standard syntax */
+  @keyframes vissza_kes {
+    0%   {background-color:red; left:100%;}
+    100% {background-color:red; left:-100%;}
+  }
