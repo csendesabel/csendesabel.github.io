@@ -3,7 +3,9 @@
   
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Ábel Csendes</title>
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
@@ -12,44 +14,65 @@
 
   <body>
       
-      <img class="hatterminta_oda" src="h1.svg" alt="csendesabelbackground01">
+      <!--<img class="hatterminta_oda" src="h1.svg" alt="csendesabelbackground01">
       <img class="hatterminta_oda_kes" src="h1.svg" alt="csendesabelbackground01">
       <img class="hatterminta_vissza" src="h2.svg" alt="csendesabelbackground02">
-      <img class="hatterminta_vissza_kes" src="h2.svg" alt="csendesabelbackground02">
+      <img class="hatterminta_vissza_kes" src="h2.svg" alt="csendesabelbackground02">-->
 
-    <section>
+    <div class="row">
 
-      <nav>
+      <div class="col-lg-6" style="background-color: red;">
+      <div class="container-sm" style="background-color: yellowgreen;">
         <img class="kep" src="illustartion.png" alt="Ábel Csendes Illustration">
-      </nav>
+      </div>
+      </div>
       
-      <article>
+      <div class="col-lg-6" style="background-color: blue;">
         <h1>Csendes Ábel</h1>
         <h2>DESIGNER</h2>
         <p>
           Experienced 3D and UI Designer with a demonstrated history of working in the entertainment industry. Skilled in Adobe Creative Suite, Animation, UI Wireframing and Prototyping. Passion for digital arts and design.
         </p>
-      </article>
+      </div>
 
-    </section>
+    </div>
 
-    <div id=div_linkek>
+  <div id=linkek_sor>
 
-    <a class="linkelso" href="https://www.behance.net/csabel" target="_blank">
-      <img class="linkicon" src="behance.svg">
-    </a>
-    <a class="link" href="https://www.instagram.com/csnds.dsgn/" target="_blank">
-      <img class="linkicon" src="instagram.svg">
-    </a>
-    <a class="link" href="https://www.linkedin.com/in/abel-csendes-8a4a44160/" target="_blank">
-      <img class="linkicon" src="linkedin.svg">
-    </a>
-    <a class="link" href="https://dribbble.com/cs_abel" target="_blank">
-      <img class="linkicon" src="dribbble.svg">
-    </a>
-    <a class="link" href="https://vimeo.com/user104550735" target="_blank">
-      <img class="linkicon" src="vimeo.svg">
-    </a>
+  <div class="col-lg-6 row">
+          <div class="col-4" style="text-align: center; padding-top: 15px;">
+          <a href="https://www.behance.net/csabel" target="_blank"> <img class="linkicon" src="behance.svg"> </a>
+          </div>
+          <div class="col-4 centerre" style="text-align: center; padding-top: 15px;">
+          <a href="https://www.instagram.com/csnds.dsgn/" target="_blank"> <img class="linkicon" src="instagram.svg"> </a>
+          </div>
+          <div class="col-4 centerre" style="text-align: center; padding-top: 15px;">
+          <a href="https://www.linkedin.com/in/abel-csendes-8a4a44160/" target="_blank"> <img class="linkicon" src="linkedin.svg"> </a>
+          </div>
+  </div>
+
+  <div class="col-lg-6 row">
+          <div class="col-4" style="text-align: center; padding-top: 15px;">
+          <a href="https://dribbble.com/cs_abel" target="_blank"> <img class="linkicon" src="dribbble.svg"> </a>
+          </div>
+          <div class="col-4" style="text-align: center; padding-top: 15px;">
+          <a href="https://vimeo.com/user104550735" target="_blank"> <img class="linkicon" src="vimeo.svg"> </a>
+          </div>
+          <div class="col-4" style="text-align: center; padding-top: 15px;">
+          <a tabindex="0" class="btn" data-container="body" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" data-popover-content="#unique-id"> <img class="linkicon" src="contact.svg"> </a>
+          </div>
+
+          <div id="unique-id" style="display:none;">
+            <div class="popover-body">
+              <h6>Ábel Csendes</h6>
+              <ul style="list-style-type: none;">
+                <li>csendes.abel@gmail.com</li>
+                <li>+3630-4920160</li>
+                <li>Budapest, Hungary</li>
+              </ul>
+            </div>
+          </div>
+  </div>
 
     </div>
 
@@ -57,7 +80,20 @@
       <p class="alairas">Coded by Ábel Csendes 2019</p>
     </div>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <script>
+        $("[data-toggle=popover]").popover({
+        html : true,
+        trigger: 'focus',
+        content: function() {
+            var content = $(this).attr("data-popover-content");
+            return $(content).children(".popover-body").html();
+            }
+        });
+    </script>
+                        
   </body>
 </html>
