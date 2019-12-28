@@ -12,8 +12,9 @@ body {
 
 .name {
   color: rgb(18, 15, 0);;
-  font-family: 'Montserrat Black', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 9vw;
+  font-weight: 900;
   line-height: 1;
   margin-left: 30px;
   margin-top: 20px;
@@ -22,16 +23,18 @@ body {
 
 .jobtitle {
   color: rgb(18, 15, 0);;
-  font-family: 'Montserrat Medium', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 5vw;
+  font-weight: 500;
   margin-left: 30px;
   margin-top: 0px;
 }
 
 .alairas {
   color: rgb(18, 15, 0);;
-  font-family: 'Montserrat Light', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 10px;
+  font-weight: 300;
   margin-bottom: 30px;
   margin-top: 50px;
 }
